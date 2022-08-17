@@ -4671,7 +4671,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		/* border-top: solid 10px rgb(138, 169, 212); */
 		min-height: 75vh;
-		position: relative;
+		/* position: relative; */
 		/*** new ***/
 		/* text-align: center; */
 		width: 100%;
@@ -5524,12 +5524,15 @@ input, select, textarea {
 		width: 100%;
 	}
 
-/* .posts-grid article {
-	border: 2px solid red;
-} */
-/* .posts-grid article:hover,
-.posts-grid h3:hover {
-	cursor: pointer;
-	background: rgb(138, 169, 212);
-	color: #ffffff;
-} */
+.reveal {
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+.reveal.active{
+	transform: translateY(0px);
+	opacity: 1;
+
+}
