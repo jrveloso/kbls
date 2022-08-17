@@ -86,6 +86,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -3624,7 +3625,7 @@ input, select, textarea {
 
 		.wrapper > .inner {
 			margin: 0 auto;
-			width: 80em;
+			/* width: 80em; */
 			max-width: calc(100% - 6em);
 		}
 
@@ -4672,6 +4673,8 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		width: 100%;
+		/*** new ***/
+		height: 100vh;
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -4909,7 +4912,7 @@ input, select, textarea {
 		background-color: #ff887b;
 		color: rgba(255, 255, 255, 0.75);
 		padding: 7.5em 0 5.5em 0 ;
-		background-color: rgb(138, 169, 230);
+		background-color: rgb(138, 169, 212);
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -5517,3 +5520,13 @@ input, select, textarea {
 	.image.fit img {
 		width: 100%;
 	}
+
+/* .posts-grid article {
+	border: 2px solid red;
+} */
+/* .posts-grid article:hover,
+.posts-grid h3:hover {
+	cursor: pointer;
+	background: rgb(138, 169, 212);
+	color: #ffffff;
+} */
