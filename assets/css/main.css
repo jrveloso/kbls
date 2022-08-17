@@ -3289,7 +3289,8 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			/*** new ***/
+			justify-content: flex-start;
 			width: 100%;
 			margin-left: 0;
 		}
@@ -4671,7 +4672,8 @@ input, select, textarea {
 		/* border-top: solid 10px rgb(138, 169, 212); */
 		min-height: 75vh;
 		position: relative;
-		text-align: center;
+		/*** new ***/
+		/* text-align: center; */
 		width: 100%;
 		/*** new ***/
 		height: 100vh;
@@ -4764,7 +4766,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 			transition: transform 0.75s ease-in-out, opacity 0.75s ease-in-out;
 			position: relative;
-			width: 45em;
+			/*** was 45em now 75***/
+			width: 60em;
 			max-width: calc(100% - 6em);
 			z-index: 1;
 		}
