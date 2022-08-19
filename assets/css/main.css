@@ -5528,7 +5528,7 @@ input, select, textarea {
 	position: relative;
 	transform: translateY(150px);
 	opacity: 0;
-	transition: all 1s ease;
+	transition: all 0.5s ease;
 }
 
 .reveal.active{
