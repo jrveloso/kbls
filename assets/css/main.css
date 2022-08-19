@@ -214,15 +214,15 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.75em;
+			font-size: 2.5em;
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.75em;
 		}
 
 		h3 {
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 
 	}
@@ -4666,7 +4666,7 @@ input, select, textarea {
 		justify-content: center;
 		background-attachment: fixed;
 		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg");
-		/* background-position: bottom left; */
+		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		/* border-top: solid 10px rgb(138, 169, 212); */
