@@ -4712,12 +4712,12 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		/* border-top: solid 10px rgb(138, 169, 212); */
 		min-height: 75vh;
-		/* position: relative; */
+		position: relative;
 		/*** new ***/
 		/* text-align: center; */
 		width: 100%;
 		/*** new ***/
-		height: 100vh;
+		height: 90vh;
 	}
 
 		#banner input, #banner select, #banner textarea {
