@@ -163,10 +163,15 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3.25em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;;
+		font-size: 3.75em;
+		/* font-weight: 400; */
 		line-height: 1.3;
 	}
 
+	.we {
+		font-weight: 900;
+	}
 	h2 {
 		font-size: 2.5em;
 	}
@@ -199,12 +204,12 @@ input, select, textarea {
 		}
 
 		h2 {
-			margin-top: 1em;
+			padding-top: 1em;
 			font-size: 1.75em;
 		}
 
 		h3 {
-			font-size: 1em;
+			font-size: 1.75em;
 		}
 
 		h4 {
@@ -1826,7 +1831,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		margin-left: -6em;
+		/*** new ***/
+		/* margin-left: -6em; */
 		/* margin-bottom: 2em; */
 	}
 
@@ -1845,6 +1851,8 @@ input, select, textarea {
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
+			padding-top: 2.75em;
+			padding-bottom: 2.75em;
 		}
 
 		.split.style1 > *:nth-child(2n - 1) {
@@ -1852,13 +1860,13 @@ input, select, textarea {
 		}
 
 		.split.style1 > *:nth-child(2n) {
-			width: 75%;
+			width: 60%;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			.split {
-				margin-left: -3.75em;
+				/* margin-left: -3.75em; */
 			}
 
 				.split > * {
@@ -2863,6 +2871,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2870,7 +2879,7 @@ input, select, textarea {
 		-ms-appearance: none;
 		appearance: none;
 		/* border-radius: 4px; */
-		border: solid 1.5px;
+		border: solid 1.4px;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2881,6 +2890,7 @@ input, select, textarea {
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
+		input[type="email"]:invalid,
 		input[type="email"]:invalid,
 		select:invalid,
 		textarea:invalid {
@@ -2907,6 +2917,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		height: 3.5em;
 	}
@@ -3007,6 +3018,7 @@ input, select, textarea {
 
 	input[type="text"],
 	input[type="password"],
+	input[type="tel"],
 	input[type="email"],
 	select,
 	textarea {
@@ -3016,6 +3028,7 @@ input, select, textarea {
 
 		input[type="text"]:focus,
 		input[type="password"]:focus,
+		input[type="tel"]:focus,
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
@@ -3152,6 +3165,9 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			.image.fit.portait img {
+				box-shadow: rgba(100,100,111,0.2) 0px 24px 29px 16px;
+			}
 
 		.image.main {
 			display: block;
@@ -3183,7 +3199,7 @@ input, select, textarea {
 
 			.image.fit.portrait img {
 				width: 100%;
-				margin-bottom: 40px;
+				/* margin-bottom: 40px; */
 			}
 
 			.image.main {
@@ -3729,6 +3745,7 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="text"],
 			.wrapper.style1 input[type="password"],
+			.wrapper.style1 input[type="tel"],
 			.wrapper.style1 input[type="email"],
 			.wrapper.style1 select,
 			.wrapper.style1 textarea {
@@ -3738,6 +3755,7 @@ input, select, textarea {
 
 				.wrapper.style1 input[type="text"]:focus,
 				.wrapper.style1 input[type="password"]:focus,
+				.wrapper.style1 input[type="tel"]:focus,
 				.wrapper.style1 input[type="email"]:focus,
 				.wrapper.style1 select:focus,
 				.wrapper.style1 textarea:focus {
@@ -3883,7 +3901,7 @@ input, select, textarea {
 				}
 
 		.wrapper.style2 {
-			background-color: #fcfcfc;
+			background-color: rgb(235, 205, 180);
 			color: #5a5a5a;
 		}
 
@@ -3985,7 +4003,7 @@ input, select, textarea {
 					.wrapper.style2 input[type="button"].primary:active,
 					.wrapper.style2 button.primary:active,
 					.wrapper.style2 .button.primary:active {
-						background-color: #ff7162;
+						/* background-color: #ff7162; */
 					}
 
 			.wrapper.style2 label {
@@ -3994,6 +4012,7 @@ input, select, textarea {
 
 			.wrapper.style2 input[type="text"],
 			.wrapper.style2 input[type="password"],
+			.wrapper.style2 input[type="tel"],
 			.wrapper.style2 input[type="email"],
 			.wrapper.style2 select,
 			.wrapper.style2 textarea {
@@ -4003,11 +4022,12 @@ input, select, textarea {
 
 				.wrapper.style2 input[type="text"]:focus,
 				.wrapper.style2 input[type="password"]:focus,
+				.wrapper.style2 input[type="tel"]:focus,
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #ff887b;
-					box-shadow: 0 0 0 1px #ff887b;
+					/* border-color: #ff887b; */
+					/* box-shadow: 0 0 0 1px #ff887b; */
 				}
 
 			.wrapper.style2 select {
@@ -4032,15 +4052,15 @@ input, select, textarea {
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #ff887b;
-				border-color: #ff887b;
+				/* background-color: #ff887b; */
+				/* border-color: #ff887b; */
 				color: #fcfcfc;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #ff887b;
-				box-shadow: 0 0 0 1px #ff887b;
+				/* border-color: #ff887b; */
+				/* box-shadow: 0 0 0 1px #ff887b; */
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -4131,7 +4151,7 @@ input, select, textarea {
 				.wrapper.style2 .tabs .titles li.active {
 					background-color: #5a5a5a;
 					border-bottom-color: #5a5a5a;
-					color: #ff887b;
+					/* color: #ff887b; */
 				}
 
 			.wrapper.style2 .tabs .panels {
@@ -4241,7 +4261,7 @@ input, select, textarea {
 			#header .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #ff887b !important;
+				/* color: #ff887b !important; */
 			}
 
 				#header input[type="submit"].primary.icon:before,
@@ -4249,7 +4269,7 @@ input, select, textarea {
 				#header input[type="button"].primary.icon:before,
 				#header button.primary.icon:before,
 				#header .button.primary.icon:before {
-					color: #ff887b !important;
+					/* color: #ff887b !important; */
 				}
 
 		#header a {
@@ -4279,9 +4299,9 @@ input, select, textarea {
 			}
 
 			#header > .logo > a {
-				font-family: "Arial", "Source sans Pro";
-				/* font-weight: 400; */
-				font-size: 1.75em;
+				font-family: "Office Code Pro", "Arial", "Source sans Pro";
+				font-weight: 400;
+				font-size: 2em;
 			}
 
 			#header > .logo > span {
@@ -4964,25 +4984,25 @@ input, select, textarea {
 
 	#footer {
 		/* background-color: #ff887b; */
-		color: #333333;
+		color: #ffffff;
 		padding: 7.5em 0 5.5em 0 ;
-		background-color: #ffffff;
+		background-color: rgb(235, 191, 154);
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #333333;
+			color: #ffffff;
 		}
 
 		#footer a {
-			color: #5a5a5a;
+			color: #ffffff;
 		}
 
 		#footer strong, #footer b {
-			color: #333333;
+			color: #ffffff;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #333333;
+			color: #ffffff;
 		}
 
 		#footer blockquote {
@@ -5008,8 +5028,8 @@ input, select, textarea {
 		#footer button,
 		#footer .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #333333;
-			color: #5a5a5a !important;
+			box-shadow: inset 0 0 0 1px #ffffff;
+			color: #ffffff !important;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -5055,24 +5075,26 @@ input, select, textarea {
 				} */
 
 		#footer label {
-			color: #333333;
+			color: #ffffff;
 		}
 
 		#footer input[type="text"],
 		#footer input[type="password"],
+		#footer input[type="tel"],
 		#footer input[type="email"],
 		#footer select,
 		#footer textarea {
 			background-color: transparent;
-			border-color: #5a5a5a;
+			border-color: #ffffff;
 		}
 
 			#footer input[type="text"]:focus,
 			#footer input[type="password"]:focus,
+			#footer input[type="tel"]:focus,
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #5a5a5a;
+				border-color: #ffffff;
 				box-shadow: 0 0 0 1px #333333;
 			}
 
@@ -5081,60 +5103,60 @@ input, select, textarea {
 		}
 
 			#footer select option {
-				color: #333333;
+				color: #ffffff;
 				/* background: #ff887b; */
 			}
 
 		#footer input[type="checkbox"] + label,
 		#footer input[type="radio"] + label {
-			color: #333333;
+			color: #ffffff;
 		}
 
 			#footer input[type="checkbox"] + label:before,
 			#footer input[type="radio"] + label:before {
 				background: rgba(255, 255, 255, 0.075);
-				border-color: #5a5a5a;
+				border-color: #ffffff;
 			}
 
 		#footer input[type="checkbox"]:checked + label:before,
 		#footer input[type="radio"]:checked + label:before {
 			background-color: #333333;
-			border-color: #333333;
+			border-color: #ffffff;
 			/* color: #ff887b; */
 		}
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #333333;
+			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #333333;
 		}
 
 		#footer ::-webkit-input-placeholder {
-			color: #333333 !important;
+			color: #ffffff !important;
 		}
 
 		#footer :-moz-placeholder {
-			color: #333333 !important;
+			color: #ffffff !important;
 		}
 
 		#footer ::-moz-placeholder {
-			color: #333333 !important;
+			color: #ffffff !important;
 		}
 
 		#footer :-ms-input-placeholder {
-			color: #333333 !important;
+			color: #ffffff !important;
 		}
 
 		#footer .formerize-placeholder {
-			color: #333333 !important;
+			color: #ffffff !important;
 		}
 
 		#footer ul.alt li {
-			border-top-color: #333333;
+			border-top-color: #ffffff;
 		}
 
 		#footer ul.icons-bordered .icon {
-			border-color: #333333;
+			border-color: #ffffff;
 		}
 
 			#footer ul.icons-bordered .icon:hover {
@@ -5146,7 +5168,7 @@ input, select, textarea {
 			}
 
 		#footer ul.contact-icons li:before {
-			color: #333333;
+			color: #ffffff;
 		}
 
 		#footer header p {
@@ -5162,7 +5184,7 @@ input, select, textarea {
 			}
 
 		#footer table th {
-			color: #333333;
+			color: #ffffff;
 		}
 
 		#footer table thead {
@@ -5182,7 +5204,7 @@ input, select, textarea {
 		}
 
 			#footer .features > article:before, #footer .features > article h3 {
-				color: #333333;
+				color: #ffffff;
 			}
 
 		#footer .stats > article {
@@ -5197,7 +5219,7 @@ input, select, textarea {
 			#footer .tabs .titles li.active {
 				background-color: #ff887b;
 				border-bottom-color: #ff887b;
-				color: #333333;
+				color: #ffffff;
 			}
 
 		#footer .tabs .panels {
@@ -5206,7 +5228,7 @@ input, select, textarea {
 
 		#footer .progress {
 			border-color: rgba(255, 255, 255, 0.25);
-			color: #333333;
+			color: #ffffff;
 		}
 
 			#footer .progress:before {
@@ -5220,7 +5242,7 @@ input, select, textarea {
 		}
 
 		#footer .copyright {
-			border-top: solid 1px #333333;
+			border-top: solid 1px #ffffff;
 			font-size: 0.9em;
 			margin-top: 4em;
 			padding-top: 4em;
@@ -5351,9 +5373,12 @@ input, select, textarea {
 	.posts-grid > article {
 		/* box-shadow: 0px 3px 16px -4px #292C35; */
 		transition: transform .2s linear, -webkit-transform .2s linear;
+		background: #ffffff;
 	}
 	.posts-grid > article:hover {
-		-webkit-filter: brightness(70%);
+		/* cursor: pointer; */
+		/* -webkit-filter: brightness(70%); */
+		background: #fcfcfc;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -5581,12 +5606,15 @@ input, select, textarea {
 .image img {
 	border-radius: 0;
 	display: block;
-	-webkit-filter: brightness(70%);
+	-webkit-filter: brightness(80%);
 }
 .image.fit {
 	display: block;
 	/* margin: 0 0 2.75rem 0; */
-	width: 100%;
+	/* width: 90%; */
+	/* margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.25em; */
 }
 
 	.image.fit img {
