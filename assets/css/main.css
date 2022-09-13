@@ -4910,9 +4910,9 @@ input, select, textarea {
 				padding: 6em 0 3em 0 ;
 				/* background-attachment: fixed; */
 				/* background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg"); */
-				/* background-position: center; */
-				/* background-size: cover; */
-				/* background-repeat: no-repeat; */
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
 			}
 
 		}
@@ -5656,7 +5656,7 @@ input, select, textarea {
 }
 
 .pximg1, .pximg2, .pximg3{
-	position: relative;
+	/* position: relative; */
 	/* opacity: 0.70; */
 	background-position: center;
 	background-size: cover;
@@ -5669,6 +5669,7 @@ input, select, textarea {
   }
 
 .pximg2{
+	/* background-attachment: fixed; */
 	background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash.jpg");
-	min-height: 400px;
+	min-height: 380px;
 }
