@@ -4730,10 +4730,10 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-attachment: fixed;
 		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg");
-		background-position: center;
+		background-attachment: fixed;
 		background-size: cover;
+		background-position: center;
 		background-repeat: no-repeat;
 		/* border-top: solid 10px rgb(138, 169, 212); */
 		/* min-height: 75vh; */
@@ -5654,12 +5654,16 @@ input, select, textarea {
 #one p {
 	font-size: 1.25em;
 }
-
+.pximg2{
+	/* background-attachment: fixed; */
+	background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash.jpg");
+	min-height: 380px;
+}
 .pximg1, .pximg2, .pximg3{
 	/* position: relative; */
 	/* opacity: 0.70; */
-	background-position: center;
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	/*
 	fixed=parallax
@@ -5667,9 +5671,3 @@ input, select, textarea {
 	*/
 	background-attachment: fixed;
   }
-
-.pximg2{
-	/* background-attachment: fixed; */
-	background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash.jpg");
-	min-height: 380px;
-}
