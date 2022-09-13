@@ -4730,11 +4730,12 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
+		/* background: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg") cover fixed; */
 		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg");
-		background-attachment: fixed;
-		background-size: cover;
 		background-position: center;
+		background-size: cover;
 		background-repeat: no-repeat;
+		background-attachment: fixed;
 		/* border-top: solid 10px rgb(138, 169, 212); */
 		/* min-height: 75vh; */
 		/* position: relative; */
@@ -5658,16 +5659,19 @@ input, select, textarea {
 	/* background-attachment: fixed; */
 	background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash.jpg");
 	min-height: 380px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .pximg1, .pximg2, .pximg3{
 	/* position: relative; */
 	/* opacity: 0.70; */
+	/* background-position: center;
 	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 	/*
 	fixed=parallax
 	scroll=normal
 	*/
-	background-attachment: fixed;
   }
