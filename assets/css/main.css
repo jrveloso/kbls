@@ -4516,7 +4516,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header > .logo > a {
-				font-size: 1.25em;
+				font-size: 1.9em;
 			}
 
 			#header > .logo > span {
@@ -4633,7 +4633,7 @@ input, select, textarea {
 			}
 
 			#navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
-				color: #ff887b !important;
+				color: rgb(235, 191, 154) !important;
 			}
 
 			#navPanel .link .indent-1 {
@@ -5348,7 +5348,7 @@ input, select, textarea {
 	-ms-align-items: -ms-stretch;
 	align-items: stretch;
 	row-gap: 32px;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 	.posts-grid > * {
