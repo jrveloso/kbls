@@ -221,7 +221,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2.49em;
+			font-size: 2.3em;
 		}
 
 		h2 {
@@ -1882,6 +1882,7 @@ input, select, textarea {
 					-webkit-align-items: -webkit-flex-start;
 					-ms-align-items: -ms-flex-start;
 					align-items: flex-start;
+					padding-top: 4em;
 				}
 
 		}
@@ -5270,7 +5271,6 @@ input, select, textarea {
 			#footer {
 				padding: 5em 0 3em 0 ;
 			}
-
 				#footer .contact {
 					margin-right: 1.5em;
 				}
@@ -5282,7 +5282,6 @@ input, select, textarea {
 			#footer {
 				padding: 3em 0 1em 0 ;
 			}
-
 				#footer > .inner {
 					max-width: calc(100% - 3em);
 				}
