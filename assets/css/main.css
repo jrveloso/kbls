@@ -4715,12 +4715,6 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		height: 90vh;
-		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
 		background-color: rgb(138, 169, 212);
 		color: rgba(255, 255, 255, 0.75);
 		padding: 10em 0 6em 0 ;
@@ -4736,10 +4730,16 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
+		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 90vh;
 		/* background: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg") cover fixed; */
 		/*** new ***/
 		/* text-align: center; */
-		width: 100%;
+		/* width: 100%; */
 		/*** new ***/
 	}
 
@@ -4897,7 +4897,12 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				/* min-height: 0; */
+				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 90vh;
 			}
 
 		}
@@ -4906,11 +4911,12 @@ input, select, textarea {
 
 			#banner {
 				padding: 6em 0 3em 0 ;
-				/* background-attachment: fixed; */
-				/* background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg"); */
-				/* background-position: center;
+				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
 				background-size: cover;
-				background-repeat: no-repeat; */
+				height: 90vh;
 			}
 
 		}
@@ -4919,6 +4925,12 @@ input, select, textarea {
 
 			#banner {
 				padding: 10em 0 6em 0 ;
+				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 90vh;
 			}
 
 				#banner .icon {
@@ -4931,12 +4943,12 @@ input, select, textarea {
 
 			#banner {
 				padding: 5em 0 2em 0 ;
-				/* padding: 6em 0 3em 0 ; */
-				/* background-attachment: fixed; */
-				/* background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg"); */
-				/* background-position: center; */
-				/* background-size: cover; */
-				/* background-repeat: no-repeat; */
+				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 90vh;
 			}
 
 				#banner > .inner {
@@ -5665,7 +5677,6 @@ input, select, textarea {
 
 #one {
 	padding: 0;
-	/* border-bottom: 1px solid black; */
 	background-color: #FAF9F6;
 }
 #one > div > div > #one-image {
@@ -5675,7 +5686,6 @@ input, select, textarea {
 	font-size: 1.25em;
 }
 .pximg2{
-	/* background-attachment: fixed; */
 	background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash-copy-2.jpg");
 	min-height: 380px;
 	background-attachment: fixed;
@@ -5684,11 +5694,11 @@ input, select, textarea {
 	background-size: cover;
 }
 .pximg1, .pximg2, .pximg3{
-	/* position: relative; */
+	position: relative;
 	/* opacity: 0.70; */
-	/* background-position: center;
+	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 	/*
 	fixed=parallax
 	scroll=normal
