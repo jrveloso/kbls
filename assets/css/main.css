@@ -2370,7 +2370,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		background-color: #ff887b;
+		background-color: rgb(138, 169, 212);
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 	}
@@ -5641,6 +5641,28 @@ input, select, textarea {
 
 .reveal.active{
 	transform: translateY(0px);
+	opacity: 1;
+}
+.start-reveal {
+	position: relative;
+	transform: translateX(-25px);
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.start-reveal.start-active{
+	transform: translateX(0px);
+	opacity: 1;
+}
+.end-reveal {
+	position: relative;
+	transform: translateX(25px);
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.end-reveal.end-active{
+	transform: translateX(0px);
 	opacity: 1;
 }
 
