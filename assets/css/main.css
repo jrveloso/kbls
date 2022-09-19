@@ -3036,8 +3036,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #333333;
-			box-shadow: 0 0 0 1px #ff887b;
+			border-color: rgb(59, 59, 59);
+			box-shadow: 0 0 0 1px rgb(59, 59, 59);
 		}
 
 	select {
@@ -4715,6 +4715,12 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+		height: 90vh;
+		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		background-color: rgb(138, 169, 212);
 		color: rgba(255, 255, 255, 0.75);
 		padding: 10em 0 6em 0 ;
@@ -4731,19 +4737,10 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		/* background: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg") cover fixed; */
-		background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		/* border-top: solid 10px rgb(138, 169, 212); */
-		/* min-height: 75vh; */
-		/* position: relative; */
 		/*** new ***/
 		/* text-align: center; */
-		/* width: 100%; */
+		width: 100%;
 		/*** new ***/
-		/* height: 90vh; */
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -4911,9 +4908,9 @@ input, select, textarea {
 				padding: 6em 0 3em 0 ;
 				/* background-attachment: fixed; */
 				/* background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg"); */
-				background-position: center;
+				/* background-position: center;
 				background-size: cover;
-				background-repeat: no-repeat;
+				background-repeat: no-repeat; */
 			}
 
 		}
@@ -5681,10 +5678,10 @@ input, select, textarea {
 	/* background-attachment: fixed; */
 	background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash-copy-2.jpg");
 	min-height: 380px;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .pximg1, .pximg2, .pximg3{
 	/* position: relative; */
