@@ -151,7 +151,6 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		/* font-weight: 400; */
 		line-height: 1.5;
 		letter-spacing: 0.04em;
 		margin: 0 0 1em 0;
@@ -174,10 +173,28 @@ input, select, textarea {
 	}
 	h2 {
 		font-size: 2.5em;
+		font-family: "Office Code Pro", "Open Sans", Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: 0em;
 	}
-
+	.quotes h2 {
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		text-transform: inherit;
+		font-weight: 100;
+		letter-spacing: 0.04em;
+	}
+	#footer h2 {
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		text-transform: capitalize;
+		font-weight: 200;
+	}
 	h3 {
-		font-size: 1.75em;
+		font-size: 2em;
+		font-family: "Office Code Pro", "Open Sans", Arial, Helvetica, sans-serif;
+		text-transform: capitalize;
+		font-weight: 400;
+		letter-spacing: 0em;
 		/* font-weight: 400; */
 	}
 
@@ -3906,7 +3923,8 @@ input, select, textarea {
 				}
 
 		.wrapper.style2 {
-			background-color: rgb(235, 205, 180);
+			/* color: rgb(235, 191, 154); */
+			background: linear-gradient(to top, rgb(235, 191, 154), rgb(235, 205, 180));
 			color: #5a5a5a;
 			padding-top: 2.75em;
 		}
@@ -4216,6 +4234,7 @@ input, select, textarea {
 		-webkit-transition-timing-function: ease-in-out;
 		-ms-transition-timing-function: ease-in-out;
 		transition-timing-function: ease-in-out;
+		/* color: #aaaaaa; */
 		background: rgb(138, 169, 212);
 		color: #fcfcfc;
 		left: 0;
@@ -5001,8 +5020,9 @@ input, select, textarea {
 	#footer {
 		/* background-color: #ff887b; */
 		color: #3b3b3b;
+		/* color: rgb(237, 162, 101); */
 		padding: 7.5em 0 5.5em 0 ;
-		background-color: rgb(235, 191, 154);
+		background: linear-gradient(to top, rgb(237, 162, 101) 25%, rgb(235, 191, 154));
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -5388,6 +5408,7 @@ input, select, textarea {
 		/* box-shadow: 0px 3px 16px -4px #292C35; */
 		transition: transform .2s linear, -webkit-transform .2s linear;
 		background: #ffffff;
+		border-radius: 10px ;
 	}
 	.posts-grid > article:hover {
 		/* cursor: pointer; */
@@ -5633,6 +5654,8 @@ input, select, textarea {
 
 	.image.fit img {
 		width: 100%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
 	}
 
 .posts-grid > article {
