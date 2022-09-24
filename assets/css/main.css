@@ -175,7 +175,7 @@ input, select, textarea {
 		font-size: 2.5em;
 		font-family: "Office Code Pro", "Open Sans", Arial, Helvetica, sans-serif;
 		text-transform: uppercase;
-		font-weight: 400;
+		font-weight: 300;
 		letter-spacing: 0em;
 	}
 	.quotes h2 {
@@ -193,7 +193,7 @@ input, select, textarea {
 		font-size: 2em;
 		font-family: "Office Code Pro", "Open Sans", Arial, Helvetica, sans-serif;
 		text-transform: capitalize;
-		font-weight: 400;
+		font-weight: 300;
 		letter-spacing: 0em;
 		/* font-weight: 400; */
 	}
@@ -238,17 +238,31 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2.3em;
+			font-size: 2.2em;
 		}
 
 		h2 {
-			font-size: 2em;
+			font-size: 2.1em;
+			text-align: center;
 		}
 
 		h3 {
-			font-size: 1.5em;
+			font-size: 1.75em;
 		}
-
+		#one p {
+			text-align: center;
+		}
+		.contact-icons {
+			margin-left: 75px;
+			
+		}
+	
+		ul.contact-icons li {
+			margin-bottom: 0.25em;
+			min-height: 2.4em;
+			padding-left: 2.25em;
+			font-size: 1.10em;
+		}
 	}
 
 	sub {
