@@ -4981,6 +4981,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 4em 0 1em 0 ;
+				background-attachment: scroll;
 			}
 
 		}
