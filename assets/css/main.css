@@ -3938,7 +3938,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			/* color: rgb(235, 191, 154); */
-			background: linear-gradient(to top, rgb(235, 191, 154), rgb(235, 205, 180));
+			background: linear-gradient(to top, rgb(235, 191, 154) 50%, rgb(235, 205, 180));
 			color: #5a5a5a;
 			padding-top: 2.75em;
 		}
@@ -4216,7 +4216,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 0 0 1em 0 ;
+				padding: 0 0 4em 0 ;
 			}
 
 				.wrapper > .inner {
@@ -4770,11 +4770,6 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 90vh;
-		/* background: url("../../images/sander-yigin-ki19VJAGh6w-unsplash.jpg") cover fixed; */
-		/*** new ***/
-		/* text-align: center; */
-		/* width: 100%; */
-		/*** new ***/
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -4931,12 +4926,12 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
+				/* background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				height: 90vh;
+				height: 90vh; */
 			}
 
 		}
@@ -4945,12 +4940,6 @@ input, select, textarea {
 
 			#banner {
 				padding: 6em 0 3em 0 ;
-				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
-				background-attachment: fixed;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				height: 90vh;
 			}
 
 		}
@@ -4959,12 +4948,6 @@ input, select, textarea {
 
 			#banner {
 				padding: 10em 0 6em 0 ;
-				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
-				background-attachment: fixed;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				height: 90vh;
 			}
 
 				#banner .icon {
@@ -4977,12 +4960,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 5em 0 2em 0 ;
-				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
-				background-attachment: fixed;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				height: 90vh;
+				background-attachment: inital;
 			}
 
 				#banner > .inner {
@@ -5003,12 +4981,6 @@ input, select, textarea {
 
 			#banner {
 				padding: 4em 0 1em 0 ;
-				background-image: url("../../images/sander-yigin-ki19VJAGh6w-unsplash-copy-2.jpg");
-				background-attachment: fixed;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				height: 90vh;
 			}
 
 		}
@@ -5746,3 +5718,10 @@ input, select, textarea {
 	scroll=normal
 	*/
   }
+
+@media screen and (max-width: 736px) {
+	.pximg2 {
+		background-attachment: scroll;
+		min-height: 320px;
+	}
+}
