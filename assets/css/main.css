@@ -1940,7 +1940,7 @@ input, select, textarea {
 
 					.split > *:first-child {
 						margin-top: 0 !important;
-						width: 45% !important;
+						width: 100% !important;
 					}
 				
 				/* .split.reversed {
