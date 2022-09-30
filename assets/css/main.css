@@ -94,16 +94,16 @@ input, select, textarea {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
 		padding: env(safe-area-inset);
-		background-color:rgb(237, 162, 101) !important;
+		/* background-color:rgb(237, 162, 101) !important; */
 	}
 
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-/* 
+
 	body {
 		background-color:rgb(237, 162, 101) !important;
-	} */
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
