@@ -100,10 +100,10 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-/* 
+
 	body {
-		background-color: rgb(138, 169, 212) !important;
-	} */
+		background-color:rgb(237, 162, 101);
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
