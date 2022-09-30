@@ -5385,7 +5385,7 @@ input, select, textarea {
 		box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
 		gap: 40px;
 		min-width: 100px;
-		max-height: 100%;
+		height: auto;
 	}
 	.posts-grid > article:hover {
 		/* cursor: pointer; */
