@@ -4984,7 +4984,7 @@ input, select, textarea {
 				height: 250px;
 			}
 			.posts-grid > article {
-				max-width: 48%;
+				max-width: 100%;
 			}
 		}
 		
