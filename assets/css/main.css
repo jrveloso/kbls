@@ -94,7 +94,7 @@ input, select, textarea {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
 		padding: env(safe-area-inset);
-		background: rgb(138, 169, 212);
+		background-color: rgb(138, 169, 212);
 	}
 
 	*, *:before, *:after {
@@ -102,7 +102,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(138, 169, 212);
+		background-color: rgb(138, 169, 212);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
