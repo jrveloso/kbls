@@ -94,7 +94,7 @@ input, select, textarea {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
 		padding: env(safe-area-inset);
-		background: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
+		background-color: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
 	}
 
 	*, *:before, *:after {
@@ -102,7 +102,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
+		background-color: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
