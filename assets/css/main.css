@@ -4954,6 +4954,10 @@ input, select, textarea {
 				padding: 4em 0 1em 0 ;
 				background-attachment: scroll;
 			}
+			#banner h1 {
+				margin-top: auto;
+				margin-bottom: 1em !important;
+			}
 		}
 		@media screen and (max-width: 1180px) and (max-height: 820px) {
 			#banner > .inner {
@@ -4963,7 +4967,6 @@ input, select, textarea {
 				margin-bottom: 0.05em !important;
 			}
 			#banner p {
-				font-size: 1.25em;
 				margin-bottom: 1em !important;
 			}
 			#banner .actions {
@@ -4973,9 +4976,6 @@ input, select, textarea {
 				padding: 4em 0 1em 0 ;
 				background-attachment: scroll;
 				background-position: center;
-			}
-			.px2 {
-				display: none;
 			}
 			.posts-grid {
 				max-width: 100% !important;
@@ -4989,7 +4989,7 @@ input, select, textarea {
 		}
 		@media screen and (min-width: 415px) and (max-width: 1180px) and (max-height: 820px) {
 			.px2 {
-				display: none;
+				background-size: contain !important;
 			}
 			.posts-grid {
 				max-width: 100% !important;
