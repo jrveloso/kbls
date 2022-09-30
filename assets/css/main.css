@@ -94,7 +94,7 @@ input, select, textarea {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
 		padding: env(safe-area-inset);
-		background-color: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
+		background-color: rgb(138, 169, 212)!important;
 	}
 
 	*, *:before, *:after {
@@ -102,7 +102,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
+		background-color: rgb(138, 169, 212) !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -4964,7 +4964,7 @@ input, select, textarea {
 	#footer {
 		color: #3b3b3b;
 		padding: 7.5em 0 5.5em 0 ;
-		background: linear-gradient(to top, rgb(237, 162, 101) 25%, rgb(235, 191, 154));
+		background: linear-gradient(to top, rgb(138, 169, 212) 1%, rgb(237, 162, 101) 5%, rgb(235, 191, 154) 100%)
 	}
 
 		#footer input, #footer select, #footer textarea {
