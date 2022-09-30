@@ -94,7 +94,7 @@ input, select, textarea {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
 		padding: env(safe-area-inset);
-		background-color:rgb(237, 162, 101) !important;
+		background: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
 	}
 
 	*, *:before, *:after {
@@ -102,7 +102,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color:rgb(237, 162, 101) !important;
+		background: linear-gradient(rgb(138, 169, 212), rgb(237, 162, 101)) !important;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3946,58 +3946,6 @@ input, select, textarea {
 			.wrapper.style1 header p {
 				color: rgba(255, 255, 255, 0.5);
 			}
-
-			.wrapper.style1 table tbody tr {
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-				.wrapper.style1 table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-			.wrapper.style1 table th {
-				color: #fcfcfc;
-			}
-
-			.wrapper.style1 table thead {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
-			}
-
-			.wrapper.style1 table tfoot {
-				border-top-color: rgba(255, 255, 255, 0.25);
-			}
-
-			.wrapper.style1 table.alt tbody tr td {
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-			.wrapper.style1 .features > article {
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-				.wrapper.style1 .features > article:before, .wrapper.style1 .features > article h3 {
-					color: #fcfcfc;
-				}
-
-			.wrapper.style1 .stats > article {
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-			.wrapper.style1 .tabs .titles li {
-				border-color: rgba(255, 255, 255, 0.25);
-				background-color: rgba(255, 255, 255, 0.075);
-			}
-
-				.wrapper.style1 .tabs .titles li.active {
-					background-color: #ff887b;
-					border-bottom-color: #ff887b;
-					color: #fcfcfc;
-				}
-
-			.wrapper.style1 .tabs .panels {
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
 			.wrapper.style1 .progress {
 				border-color: rgba(255, 255, 255, 0.25);
 				color: #fcfcfc;
