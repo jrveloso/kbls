@@ -81,6 +81,9 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		.image img {
+			height: 300px !important; 
+		}
 
 	}
 
@@ -1980,7 +1983,7 @@ input, select, textarea {
 						}
 
 		}
-		@media screen and (min-height: 737px) {
+		@media screen and (min-width: 736px) {
 			.about-logo {
 				display: none;
 			}
@@ -3232,12 +3235,7 @@ input, select, textarea {
 			display: block;
 			object-fit:cover;
 			width: 100%;
-			/* height: 400px; */
-		}
-		@media screen and (max-height: 1680px) {
-			.image img {
-				height: 330px !important; 
-			}
+			height: 330px;
 		}
 
 		.image.left, .image.right {
@@ -4015,7 +4013,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 a {
-				color: #ff887b;
+				color: inherit;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -4248,7 +4246,7 @@ input, select, textarea {
 
 			.wrapper.style2 .progress {
 				border-color: rgba(255, 255, 255, 0.15);
-				color: #ff887b;
+				color: inherit;
 			}
 
 				.wrapper.style2 .progress:before {
@@ -4461,62 +4459,6 @@ input, select, textarea {
 					line-height: inherit;
 				}
 
-			.dropotron {
-				background-color: #ffffff;
-				border-radius: 0.5em;
-				box-shadow: 0 0.075em 0.125em 0.1em rgba(0, 0, 0, 0.075);
-				list-style-type: none;
-				margin: -0.5em 0 0 1px;
-				min-width: 10em;
-				padding: 0.5em 0;
-			}
-
-				.dropotron.level-0 {
-					margin-top: 1.125em;
-					margin-left: 0;
-				}
-
-					.dropotron.level-0:before {
-						-moz-transform: rotate(45deg);
-						-webkit-transform: rotate(45deg);
-						-ms-transform: rotate(45deg);
-						transform: rotate(45deg);
-						background-color: #ffffff;
-						box-shadow: -2px -2px 3px -1px rgba(0, 0, 0, 0.1);
-						content: '';
-						height: 0.75em;
-						position: absolute;
-						right: 2em;
-						top: -0.375em;
-						width: 0.75em;
-					}
-
-				.dropotron li {
-					border-top: solid 1px rgba(144, 144, 144, 0.25);
-					padding: 0;
-					position: relative;
-				}
-
-					.dropotron li:first-child {
-						border-top: none;
-					}
-
-					.dropotron li.active > a {
-						background-color: #ff887b;
-						color: #ffffff;
-					}
-
-				.dropotron a {
-					color: #5a5a5a;
-					padding: 0.5em 1em;
-					text-decoration: none !important;
-				}
-
-					.dropotron a:active, .dropotron a:hover, .dropotron a:focus {
-						background-color: #ff887b;
-						color: #ffffff;
-					}
-
 		#header > .navPanelToggle {
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
@@ -4705,12 +4647,12 @@ input, select, textarea {
 			}
 
 			#navPanel .link.depth-0 {
-				color: #ffffff !important;
+				color: #aaaaaa !important;
 				font-weight: 400;
 			}
 
 			#navPanel .link:active, #navPanel .link:focus, #navPanel .link:hover {
-				color: rgb(235, 191, 154) !important;
+				color: #ffffff !important;
 			}
 
 			#navPanel .link .indent-1 {
@@ -5354,7 +5296,9 @@ input, select, textarea {
 	-ms-align-items: -ms-stretch;
 	align-items: stretch;
 	row-gap: 40px;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 	.posts-grid > * {
@@ -5366,6 +5310,7 @@ input, select, textarea {
 		-webkit-flex-grow: 0;
 		-ms-flex-grow: 0;
 		flex-grow: 0;
+		text-decoration: none;
 	}
 
 	.posts-grid > * {
@@ -5373,8 +5318,10 @@ input, select, textarea {
 	}
 
 	.posts-grid > * {
-		/* padding: 1.375rem; */
 		width: calc(30% + 0.91667rem);
+	}
+	.posts-grid a {
+		text-decoration: none;
 	}
 	.posts-grid > article {
 		/* box-shadow: 0px 3px 16px -4px #292C35; */
@@ -5385,9 +5332,10 @@ input, select, textarea {
 		gap: 40px;
 		min-width: 100px;
 		height: auto;
+		text-align: center;
 	}
 	.posts-grid > article:hover {
-		/* cursor: pointer; */
+		cursor: pointer;
 		/* -webkit-filter: brightness(70%); */
 		background: #fcfcfc;
 		-webkit-transition: all 0.5s ease;
@@ -5419,15 +5367,15 @@ input, select, textarea {
 		width: calc(30% + 0.91667rem);
 	}
 
-	.posts-grid article {
-		text-align: center;
-		height: auto;
-	}
-
 		.posts-grid article ul.actions li {
 			width: 100%;
 		}
 
+	@media screen and (min-width: 1680px) {
+		.posts-grid {
+			max-width: 95%;
+		}
+	}
 	@media screen and (max-width: 1280px) {
 		.posts-grid {
 			column-gap: 16px;
@@ -5491,10 +5439,18 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 980px) {
+		.posts-grid {
+			max-width: 70%;
+		}
+		.posts-grid > article {
+			width: 100% !important;
+		}
+	}
 	@media screen and (max-width: 736px) {
 
-		.posts-grid > * {
-			width: 100%;
+		.posts-grid {
+			max-width: 100%;
 		}
 
 		.posts-grid > * {
