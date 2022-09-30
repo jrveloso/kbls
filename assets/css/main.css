@@ -4964,7 +4964,7 @@ input, select, textarea {
 	#footer {
 		color: #3b3b3b;
 		padding: 7.5em 0 5.5em 0 ;
-		background: linear-gradient(to top, rgb(138, 169, 212) 1%, rgb(237, 162, 101) 5%, rgb(235, 191, 154) 100%)
+		background: linear-gradient(to top, rgb(138, 169, 212) 21%, rgb(237, 162, 101) 0%, rgb(235, 191, 154) 125%)
 	}
 
 		#footer input, #footer select, #footer textarea {
