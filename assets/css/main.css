@@ -90,6 +90,7 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
+		padding: env(safe-area-inset);
 	}
 
 	*, *:before, *:after {
@@ -4946,13 +4947,18 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
 			#banner {
 				padding: 4em 0 1em 0 ;
 				background-attachment: scroll;
 			}
-
 		}
+		@media screen and (max-width: 1180px) and (max-height: 820px) {
+			#banner {
+				padding: 4em 0 1em 0 ;
+				background-attachment: scroll;
+			}
+		}
+		
 
 /* Main */
 
