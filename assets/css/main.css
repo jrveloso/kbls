@@ -4946,7 +4946,7 @@ input, select, textarea {
 			#banner > .inner {
 				bottom: -40px !important;
 			}
-			.posts-grid {
+			/* .posts-grid {
 				max-width: 100% !important;
 			}
 			.posts-grid img {
@@ -4954,7 +4954,7 @@ input, select, textarea {
 			}
 			.posts-grid > article {
 				max-width: 100%;
-			}
+			} */
 		}
 /* Main */
 
@@ -5409,15 +5409,6 @@ input, select, textarea {
 			width: calc(48% + 0rem);
 		}
 
-	}
-
-	@media screen and (max-width: 980px) {
-		.posts-grid {
-			max-width: 70%;
-		}
-		.posts-grid > article {
-			width: 100% !important;
-		}
 	}
 	@media screen and (max-width: 736px) {
 		.posts-grid {
