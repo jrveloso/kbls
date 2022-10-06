@@ -192,12 +192,6 @@ function endReveal(){
 					side: 'right'
 				});
 
-	// Tabs.
-		$('.tabs').selectorr({
-			titleSelector: 'h3',
-			delay: 250
-		});
-
 	// Quotes.
 		$('.quotes > article')
 			.each(function() {
