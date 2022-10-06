@@ -4946,6 +4946,15 @@ input, select, textarea {
 			#banner > .inner {
 				bottom: -40px !important;
 			}
+			.posts-grid {
+				max-width: 100% !important;
+			}
+			.posts-grid img {
+				height: 250px;
+			}
+			.posts-grid > article {
+				max-width: 100%;
+			}
 		}
 /* Main */
 
