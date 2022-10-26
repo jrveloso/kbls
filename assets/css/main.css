@@ -3682,11 +3682,13 @@ input, select, textarea {
 
 		#banner h1 {
 			margin-bottom: 0.2em;
+			flex-shrink: 1;
 		}
 
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
+			flex-shrink: 1;
 		}
 
 		#banner .actions {
@@ -3778,6 +3780,15 @@ input, select, textarea {
 			}
 		}
 
+		/*** phone landscape styling ***/
+		@media screen and (max-width: 896px) and (max-height: 414px) {
+			#banner h1 {
+				font-size: 1.8em;
+			}
+			#banner p {
+				font-size: 1em;
+			}
+		}
 		/*** tablet landscape styling ***/
 		@media screen and (max-width: 1366px) and (max-height: 1024px) {
 			#banner > .inner {
@@ -3785,14 +3796,6 @@ input, select, textarea {
 			}
 			#banner * {
 				margin-bottom: 0.05em !important;
-			}
-			#banner h1 {
-				/* margin-bottom: 1em !important; */
-				font-size: 1.9em;
-			}
-			#banner p {
-				/* margin-bottom: 1em !important; */
-				font-size: 1em;
 			}
 			#banner .actions {
 				padding-top: 1em;
