@@ -245,7 +245,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 2.15em;
 		}
 
 		h2 {
@@ -3768,7 +3768,7 @@ input, select, textarea {
 					justify-content: center;
 				}
 				#banner p {
-					font-size: 1.25em;
+					font-size: 1.3em;
 				}
 
 		}
