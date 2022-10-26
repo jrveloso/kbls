@@ -181,7 +181,7 @@ input, select, textarea {
 	}
 	h2 {
 		font-size: 2.5em;
-		font-family: "Office Code Pro", "Open Sans", Arial, Helvetica, sans-serif;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
 		text-transform: uppercase;
 		font-weight: 300;
 		letter-spacing: 0em;
@@ -202,7 +202,7 @@ input, select, textarea {
 	}
 	h3 {
 		font-size: 2em;
-		font-family: "Office Code Pro", "Open Sans", Arial, Helvetica, sans-serif;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
 		text-transform: capitalize;
 		font-weight: 300;
 		letter-spacing: 0em;
@@ -249,7 +249,8 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2.2em;
+			font-size: 2em;
+			flex-shrink: 1;
 		}
 
 		h2 {
@@ -1951,6 +1952,7 @@ input, select, textarea {
 				#about-us > div > div > #one-image {
 					max-width: 30%;
 					margin: 5%;
+					margin-top: 1em !important;
 				}
 				.split > * {
 					margin-left: 0 !important;
@@ -2052,6 +2054,10 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+		.quotes h2 {
+			font-size: 1.5em;
+		}
+
 		.quotes blockquote {
 			border-left-color: rgba(255, 255, 255, 0.25);
 		}
@@ -2091,13 +2097,13 @@ input, select, textarea {
 				}
 
 			.quotes > article:nth-child(odd) {
-				padding-left: calc(50vw - 40em);
+				padding-left: calc(45vw - 40em);
 				padding-right: 3em;
 			}
 
 			.quotes > article:nth-child(even) {
 				padding-left: 3em;
-				padding-right: calc(50vw - 40em);
+				padding-right: calc(45vw - 40em);
 			}
 
 			.quotes > article:before {
@@ -2165,6 +2171,14 @@ input, select, textarea {
 
 			.quotes > article {
 				padding: 4em 0 2em 0 ;
+			}
+
+		}
+		
+		@media screen and (max-width: 480px) {
+
+			.quotes h2 {
+				font-size: 1.3em;
 			}
 
 		}
@@ -3092,6 +3106,11 @@ input, select, textarea {
 				color: #3b3b3b;
 			}
 
+			.wrapper.style2 h3 {
+				margin-top: 1em;
+				margin-bottom: 1em;
+			}
+
 			.wrapper.style2 blockquote {
 				border-left-color: rgba(255, 255, 255, 0.15);
 			}
@@ -3246,7 +3265,7 @@ input, select, textarea {
 			}
 
 			#header > .logo > a {
-				font-family: "Office Code Pro", "Arial", "Source sans Pro";
+				font-family: "Open Sans", "Arial", "Source sans Pro";
 				font-weight: 400;
 				font-size: 2em;
 			}
@@ -3751,6 +3770,9 @@ input, select, textarea {
 					padding-top: 2em;
 					justify-content: center;
 				}
+				#banner p {
+					font-size: 1.25em;
+				}
 
 		}
 		/*** smartphone styling ***/
@@ -3760,7 +3782,7 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 			#banner h1 {
-				margin-top: auto;
+				margin-top: 2.8em;
 			}
 		}
 
@@ -4096,7 +4118,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0 1em 0 ;
+				padding: 2.75em 0 1em 0 ;
 			}
 				#footer > .inner {
 					max-width: calc(100% - 3em);
@@ -4153,7 +4175,6 @@ input, select, textarea {
 
 		transition: transform .2s linear, -webkit-transform .2s linear;
 		background: #fcfcfc;
-		border-radius: 5px ;
 		box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
 		gap: 40px;
 		min-width: 100px;
@@ -4312,8 +4333,6 @@ input, select, textarea {
 
 	.image.fit img {
 		width: 100%;
-		border-top-left-radius: 5px;
-		border-top-right-radius: 5px;
 	}
 
 /*** Reveal on scroll styling ***/
@@ -4357,7 +4376,8 @@ input, select, textarea {
 		background: linear-gradient(#FFFFFF, #fcfcfc);
 	}
 	#about-us > div > div > #one-image {
-		align-self: center;
+		align-self: start;
+		margin-top: 1em;
 	}
 	#about-us p {
 		font-size: 1.25em;
@@ -4365,7 +4385,7 @@ input, select, textarea {
 
 /*** parallax image ***/
 	.pximg2{
-		background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash-copy-2.jpg");
+		background-image: url("../../images/avi-richards-pdrckQDTxWY-unsplash.jpg");
 		min-height: 380px;
 		background-attachment: fixed;
 		background-position: center;
