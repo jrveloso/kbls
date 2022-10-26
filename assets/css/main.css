@@ -94,16 +94,12 @@ input, select, textarea {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
 		padding: env(safe-area-inset);
-		background-color: rgb(138, 169, 212)!important;
 	}
 
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
 
-	body {
-		background-color: rgb(138, 169, 212) !important;
-	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -250,7 +246,6 @@ input, select, textarea {
 
 		h1 {
 			font-size: 2em;
-			flex-shrink: 1;
 		}
 
 		h2 {
@@ -3781,9 +3776,6 @@ input, select, textarea {
 				padding: 4em 0 1em 0 ;
 				background-attachment: scroll;
 			}
-			#banner h1 {
-				margin-top: 2.8em;
-			}
 		}
 
 		/*** tablet landscape styling ***/
@@ -3794,11 +3786,16 @@ input, select, textarea {
 			#banner * {
 				margin-bottom: 0.05em !important;
 			}
+			#banner h1 {
+				/* margin-bottom: 1em !important; */
+				font-size: 1.9em;
+			}
 			#banner p {
-				margin-bottom: 1em !important;
+				/* margin-bottom: 1em !important; */
+				font-size: 1em;
 			}
 			#banner .actions {
-				padding-top: 2em;
+				padding-top: 1em;
 			}
 			#banner {
 				padding: 4em 0 1em 0 ;
